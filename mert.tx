@@ -1,0 +1,17 @@
+Program:
+    commands*=Command;
+
+Command:
+  InitCommand | MoveCommand | FireCommand;
+
+InitCommand:
+  'init' x=INT ',' y=INT ',' ammo=INT;
+
+MoveCommand:
+  direc=Direc (meters=INT);
+
+FireCommand:
+  'fire';
+
+Direc:
+  "North"|"South"|"West"|"East";

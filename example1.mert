@@ -1,0 +1,8 @@
+    init 10, 10, 2
+    North 4
+    fire
+    fire
+    fire
+    West 2
+    fire
+    East 1
